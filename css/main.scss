@@ -1,0 +1,309 @@
+
+$red:rgba(215, 44, 44, 0.4);
+$orange:#E8663C;
+$solid-red:rgb(215, 44, 44);
+$gray:#D0D0D0;
+$dark-gray:#A9A9A9;
+$black:black;
+$baby-gray:#F1F1F1;
+$cinco:5%;
+$dos:2%;
+
+@font-face {font-family: 'estilo'; 
+			src: url('../fuentes/estilo.ttf') format('truetype');
+			font-weight: normal; 
+			font-style: normal;
+			}
+@font-face {
+    font-family: bebas___-webfont;
+    src: url(../font/bebas___-webfont.woff);
+}
+
+/*GLOBAL*/
+h1, h2, h3, h4, h5, h6{
+	font-family: bebas___-webfont;
+	font-weight: bolder;
+		}
+img{width:100%;}
+/*Padding*/
+.pd2{
+	padding: $dos;
+}
+.pd5{
+	padding: $cinco;
+}
+.pt2{
+	padding-top: $dos;
+}
+.pl-5{
+	padding-left: 5%;
+}
+.pr-5{
+	padding: 5%;
+}
+
+/*Margin*/
+.mg2{
+	margin: $dos;
+}
+
+
+
+/*STYLES*/
+
+header {
+	.active{
+	color: $solid-red !important;
+	}
+}
+
+.navbar a:hover{
+	color: $solid-red;
+	background-color: white !important;
+}
+.navbar {
+	a{
+		color: $gray;
+		font-weight: bold;
+		font-family: bebas___-webfont;
+		font-size: 18px;
+	}
+}
+.img-slide{
+	width: 100%;
+}
+.caption {
+	p{
+	color: $black;
+}
+	.btn{
+		background: $orange;
+		border: 0px;
+	}
+}
+#blog, #recent-works{
+	h3{
+		color: $orange;
+	}
+	h4{
+		color: $dark-gray;
+	}
+		small{
+			color: $solid-red;
+			font-weight: bold;
+		}
+}
+.thumbnail{
+	padding: $cinco;
+}
+
+.central{
+	background-color: $orange;
+	h3,p,small{
+		color: white;
+	}
+}
+
+.lateral{
+	height: auto;
+	margin: -1%;
+	padding-bottom: 77%;
+}	
+
+.titular{
+	background-color: $orange;
+	padding-top: 0%;
+	h2{
+		color: white;
+	}
+}
+     /*Portfolio*/
+.nav-pills a:hover{
+	color: white;
+	background-color: $orange !important;
+}
+.nav-pills {
+	a{
+		color: $gray;
+		font-weight: bold;
+		font-family: bebas___-webfont;
+		background-color: white;
+	}
+}
+.nav-pills{
+	a .active{
+		background-color: $orange;
+	}
+}
+
+.portfolio{
+	img{
+		width: 100%;
+	}
+	.thumbnail{
+		padding:1% !important; 
+	}
+	h4{
+		color: $dark-gray;
+	}
+		small{
+			color: $solid-red;
+			font-weight: bold;
+		}
+}
+      /*blog*/
+
+.pagination a:hover{
+	color: white !important;
+	background-color: $solid-red !important;
+}
+.pagination {
+	a{
+		color: white !important;
+		font-family: bebas___-webfont;
+		background-color: $orange !important;
+	}
+}
+
+.date{
+	padding-left: 10%;
+	padding-top: 2%;
+	p{
+		color: $dark-gray;
+	}
+	h5{
+		color: $orange !important;
+	}
+}
+.themes{
+	h3{
+		color: $orange;
+	}
+}
+     /*contactus*/
+#aside{
+	h4{
+		color: $solid-red;
+	}
+	li a{
+		color: $black;
+	}
+}
+
+.photogallery{
+	background-color: $red;
+	width: 22%;
+	height: auto;
+	display: inline-block;
+	margin: .5% .5% .5% .5%;
+	padding-bottom: 18%;
+	padding-top: 1%;
+	border: 1px red solid;
+}
+
+input, textarea{
+		border-color: $solid-red !important;
+		
+	}
+.btn-default{
+	background-color: $orange;
+	color: white;
+}
+.btn-default:hover{
+	background-color: $solid-red;
+	color: white;
+}
+
+   /*color text placeholder*/
+::-webkit-input-placeholder {
+    color:    $red !important;
+}
+:-moz-placeholder {
+    color:    $red !important;
+}
+::-moz-placeholder {
+    color:    $red !important;
+}
+:-ms-input-placeholder {
+    color:    $red !important;
+}
+
+
+
+
+    /* CALLOUTS */
+.bs-callout {
+  margin: 20px 0;
+  padding: 15px 30px 15px 15px;
+  border-left: 5px solid $solid-red;
+}
+.bs-callout h4 {
+  margin-top: 0;
+}
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+.bs-callout code,
+.bs-callout .highlight {
+  background-color: #fff;
+}
+
+.bs-callout-danger {
+  border-color: $solid-red;
+}
+/*size*/
+.w80{
+	width: 95%;
+}
+.w40{
+	width: 40% !important;
+}
+
+/*text color*/
+.txt-gray{
+	color: $gray;
+}
+.txt-black{
+	color:black;
+}
+.solid-red{
+	color: $solid-red;
+}
+.txt-red{
+	color: $red;
+}
+.txt-orange{
+	color: $orange;
+}
+/*Backgrounds colors*/
+footer{
+	background-color: $red;
+}
+
+.bg-white{
+	background-color: white;
+}
+
+.bg-red{
+	background-color:$red ;
+}
+
+.dropdown:hover{
+	background-color: $orange;
+}
+.bg-gray{
+	background-color: $baby-gray;
+}
+
+/*Background image*/
+.barr{
+	background-image:url(../images/post_border_bg.png);
+	background-repeat: repeat right;
+	height: 1em;
+	margin-top:$dos; 
+}
+
+h4{
+	color: $orange;
+
+	}

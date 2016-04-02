@@ -1,0 +1,240 @@
+@font-face {
+  font-family: 'estilo';
+  src: url("../fuentes/estilo.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: bebas___-webfont;
+  src: url(../font/bebas___-webfont.woff); }
+
+/*GLOBAL*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: bebas___-webfont;
+  font-weight: bolder; }
+
+img {
+  width: 100%; }
+
+/*Padding*/
+.pd2 {
+  padding: 2%; }
+
+.pd5 {
+  padding: 5%; }
+
+.pt2 {
+  padding-top: 2%; }
+
+.pl-5 {
+  padding-left: 5%; }
+
+.pr-5 {
+  padding: 5%; }
+
+/*Margin*/
+.mg2 {
+  margin: 2%; }
+
+/*STYLES*/
+header .active {
+  color: #d72c2c !important; }
+
+.navbar a:hover {
+  color: #d72c2c;
+  background-color: white !important; }
+
+.navbar a {
+  color: #d0d0d0;
+  font-weight: bold;
+  font-family: bebas___-webfont;
+  font-size: 18px; }
+
+.img-slide {
+  width: 100%; }
+
+.caption p {
+  color: black; }
+.caption .btn {
+  background: #e8663c;
+  border: 0px; }
+
+#blog h3, #recent-works h3 {
+  color: #e8663c; }
+#blog h4, #recent-works h4 {
+  color: darkgrey; }
+#blog small, #recent-works small {
+  color: #d72c2c;
+  font-weight: bold; }
+
+.thumbnail {
+  padding: 5%; }
+
+.central {
+  background-color: #e8663c; }
+  .central h3, .central p, .central small {
+    color: white; }
+
+.lateral {
+  height: auto;
+  margin: -1%;
+  padding-bottom: 77%; }
+
+.titular {
+  background-color: #e8663c;
+  padding-top: 0%; }
+  .titular h2 {
+    color: white; }
+
+/*Portfolio*/
+.nav-pills a:hover {
+  color: white;
+  background-color: #e8663c !important; }
+
+.nav-pills a {
+  color: #d0d0d0;
+  font-weight: bold;
+  font-family: bebas___-webfont;
+  background-color: white; }
+
+.nav-pills a .active {
+  background-color: #e8663c; }
+
+.portfolio img {
+  width: 100%; }
+.portfolio .thumbnail {
+  padding: 1% !important; }
+.portfolio h4 {
+  color: darkgrey; }
+.portfolio small {
+  color: #d72c2c;
+  font-weight: bold; }
+
+/*blog*/
+.pagination a:hover {
+  color: white !important;
+  background-color: #d72c2c !important; }
+
+.pagination a {
+  color: white !important;
+  font-family: bebas___-webfont;
+  background-color: #e8663c !important; }
+
+.date {
+  padding-left: 10%;
+  padding-top: 2%; }
+  .date p {
+    color: darkgrey; }
+  .date h5 {
+    color: #e8663c !important; }
+
+.themes h3 {
+  color: #e8663c; }
+
+/*contactus*/
+#aside h4 {
+  color: #d72c2c; }
+#aside li a {
+  color: black; }
+
+.photogallery {
+  background-color: rgba(215, 44, 44, 0.4);
+  width: 22%;
+  height: auto;
+  display: inline-block;
+  margin: .5% .5% .5% .5%;
+  padding-bottom: 18%;
+  padding-top: 1%;
+  border: 1px red solid; }
+
+input, textarea {
+  border-color: #d72c2c !important; }
+
+.btn-default {
+  background-color: #e8663c;
+  color: white; }
+
+.btn-default:hover {
+  background-color: #d72c2c;
+  color: white; }
+
+/*color text placeholder*/
+::-webkit-input-placeholder {
+  color: rgba(215, 44, 44, 0.4) !important; }
+
+:-moz-placeholder {
+  color: rgba(215, 44, 44, 0.4) !important; }
+
+::-moz-placeholder {
+  color: rgba(215, 44, 44, 0.4) !important; }
+
+:-ms-input-placeholder {
+  color: rgba(215, 44, 44, 0.4) !important; }
+
+/* CALLOUTS */
+.bs-callout {
+  margin: 20px 0;
+  padding: 15px 30px 15px 15px;
+  border-left: 5px solid #d72c2c; }
+
+.bs-callout h4 {
+  margin-top: 0; }
+
+.bs-callout p:last-child {
+  margin-bottom: 0; }
+
+.bs-callout code,
+.bs-callout .highlight {
+  background-color: #fff; }
+
+.bs-callout-danger {
+  border-color: #d72c2c; }
+
+/*size*/
+.w80 {
+  width: 95%; }
+
+.w40 {
+  width: 40% !important; }
+
+/*text color*/
+.txt-gray {
+  color: #d0d0d0; }
+
+.txt-black {
+  color: black; }
+
+.solid-red {
+  color: #d72c2c; }
+
+.txt-red {
+  color: rgba(215, 44, 44, 0.4); }
+
+.txt-orange {
+  color: #e8663c; }
+
+/*Backgrounds colors*/
+footer {
+  background-color: rgba(215, 44, 44, 0.4); }
+
+.bg-white {
+  background-color: white; }
+
+.bg-red {
+  background-color: rgba(215, 44, 44, 0.4); }
+
+.dropdown:hover {
+  background-color: #e8663c; }
+
+.bg-gray {
+  background-color: #f1f1f1; }
+
+/*Background image*/
+.barr {
+  background-image: url(../images/post_border_bg.png);
+  background-repeat: repeat right;
+  height: 1em;
+  margin-top: 2%; }
+
+h4 {
+  color: #e8663c; }
